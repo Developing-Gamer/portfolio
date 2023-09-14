@@ -74,7 +74,7 @@ section {
 
 .vertical-rule-left {
   position: absolute;
-  top: 650px;
+  top: 85%;
   bottom: 0px;
   left: 70px;
   width: 2px;
@@ -83,7 +83,7 @@ section {
 
 .vertical-rule-right {
   position: absolute;
-  top: 650px;
+  top: 85%;
   bottom: 0px;
   right: 70px;
   width: 2px;
@@ -92,14 +92,14 @@ section {
 
 .social-actions-left {
   position: absolute;
-  bottom: 150px;
+  bottom: 16%;
   margin-left: 60px;
 }
 
 .mail-action-right {
   text-align: center;
   position: absolute;
-  bottom: 270px;
+  bottom: 32%;
   right: -40px;
   rotate: 90deg;
   font-size: small;
