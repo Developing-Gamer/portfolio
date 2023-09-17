@@ -21,107 +21,415 @@
 </head>
 
 <body>
-    <!-- Navigation -->
-    <section class="smart-scroll">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <!-- <a class="navbar-brand heading-black" href="index.html">
+
+    <div class="main-container">
+        <!-- Navigation -->
+        <section class="smart-scroll">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <!-- <a class="navbar-brand heading-black" href="index.html">
                     Armaan Jain
                 </a> -->
-                <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
-                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span data-feather="grid"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item" style="font-size: small;">
-                            <a class="nav-link page-scroll" href="#skills"
-                                style="display: flex; align-items: center;  ">
-                                <div style="color: #00e5ff; margin-right: 5px;">01.</div>Skills
-                            </a>
-                        </li>
-                        <li class="nav-item" style="font-size: small;">
-                            <a class="nav-link page-scroll" href="#experience"
-                                style="display: flex; align-items: center;">
-                                <div style="color: #00e5ff; margin-right: 5px;">02.</div>Experience
-                            </a>
-                        </li>
-                        <li class="nav-item" style="font-size: small;">
-                            <a class="nav-link page-scroll" href="#projects"
-                                style="display: flex; align-items: center;">
-                                <div style="color: #00e5ff; margin-right: 5px;">03.</div>Projects
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </section>
-
-    <!-- Vertical Rule Left -->
-    <div class="vertical-rule-left"></div>
-
-    <!-- Floating Actions Left -->
-    <div class="social-actions-left">
-        <div class="icon-action">
-            <a href="#" class="social-link"><i class="fa-brands fa-github fa-lg"></i></a>
-        </div>
-        <div class="icon-action">
-            <a href="#" class="social-link"><i class="fa-brands fa-instagram fa-lg"></i></a>
-        </div>
-        <div class="icon-action">
-            <a href="#" class="social-link"><i class="fa-brands fa-linkedin fa-lg"></i></a>
-        </div>
-        <div class="icon-action">
-            <a href="#" class="social-link"><i class="fa-brands fa-medium"></i></a>
-        </div>
-    </div>
-
-    <!-- Vertical Rule Right -->
-    <div class="vertical-rule-right"></div>
-
-    <!-- Floating Actions Right -->
-    <div class="mail-action-right">
-        <div class="icon-action">
-            <a href="#" class="social-link">sample-email000@gmail.com</a>
-        </div>
-    </div>
-
-    <!--hero header-->
-    <section class="py-7 py-md-0" id="home">
-        <div class="wrapper">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="container">
-            <div class="row vh-md-100">
-                <div class="col-md-9 col-sm-10 col-12 mx-50 my-auto">
-                    <div class="" style="color: #00e5ff; line-height: 4; word-spacing: 0.3em; letter-spacing: 0.15em;">
-                        Hi, my name is</div>
-                    <h1 class="" style="font-size: 4em; color: #c7e9ea; line-height: 1;">Armaan Jain.</h1>
-                    <h2 class="" style="font-size: 4em; color: #8bb9bb; line-height: 1;">I'm a Software Developer.</h2>
-                    <p class="lead py-3" style="font-weight: 300; color: rgb(134, 160, 163); font-size: 1em;">I'm a
-                        passionate computer science major and tech entrepreneur. I thrive on creating innovative
-                        solutions like <a href="#">BoostMark.io</a> to supercharge web browsing. Join me on my journey
-                        to make the digital world smarter and more efficient, one project at a time. Let's explore the
-                        future of tech together!</p>
-                    <button class="btn btn-outline-primary d-inline-flex flex-row align-items-center"
-                        style="letter-spacing: 0.2em;">
-                        Resumé
+                    <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
+                        data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span data-feather="grid"></span>
                     </button>
-                </div>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item" style="font-size: small;">
+                                <a class="nav-link page-scroll" href="#about"
+                                    style="display: flex; align-items: center;  ">
+                                    <div style="color: #00e5ff; margin-right: 5px;">01.</div>About
+                                </a>
+                            </li>
+                            <li class="nav-item" style="font-size: small;">
+                                <a class="nav-link page-scroll" href="#projects"
+                                    style="display: flex; align-items: center;">
+                                    <div style="color: #00e5ff; margin-right: 5px;">02.</div>Projects
+                                </a>
+                            </li>
+                            <li class="nav-item" style="font-size: small;">
+                                <a class="nav-link page-scroll" href="#extras"
+                                    style="display: flex; align-items: center;">
+                                    <div style="color: #00e5ff; margin-right: 5px;">03.</div>Extras
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Vertical Rule Left -->
+        <div class="vertical-rule-left"></div>
+
+        <!-- Floating Actions Left -->
+        <div class="social-actions-left">
+            <div class="icon-action">
+                <a href="https://github.com/Developing-Gamer" class="social-link"><i class="fa-brands fa-github fa-lg"></i></a>
+            </div>
+            <div class="icon-action">
+                <a href="https://www.instagram.com/developinggamer/" class="social-link"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            </div>
+            <div class="icon-action">
+                <a href="https://www.linkedin.com/in/developinggamer/" class="social-link"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            </div>
+            <div class="icon-action">
+                <a href="https://medium.com/@developinggamer" class="social-link"><i class="fa-brands fa-medium"></i></a>
             </div>
         </div>
-    </section>
+
+        <!-- Vertical Rule Right -->
+        <div class="vertical-rule-right"></div>
+
+        <!-- Floating Actions Right -->
+        <div class="mail-action-right">
+            <div class="icon-action">
+                <a href="mailto:armaanjain11110@gmail.com" class="social-link">armaanjain11110@gmail.com</a>
+            </div>
+        </div>
+
+        <!--Hero Header-->
+        <section class="py-7 py-md-0" id="home">
+            <!-- Background Animation -->
+            <div class="wrapper">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Hero Header Content -->
+            <div class="container">
+                <div class="row vh-md-100">
+                    <div class="col-md-9 col-sm-10 col-12 mx-100 my-auto">
+                        <div class=""
+                            style="color: #00e5ff; line-height: 4; word-spacing: 0.3em; letter-spacing: 0.15em;">
+                            Hi, my name is</div>
+                        <h1 class="" style="font-size: 4em; color: #c7e9ea; line-height: 1;">Armaan Jain.</h1>
+                        <h2 class="" style="font-size: 4em; color: #8bb9bb; line-height: 1;">I'm a Software Developer.
+                        </h2>
+                        <p class="lead py-3" style="font-weight: 300; color: rgb(134, 160, 163); font-size: 1em;">I'm a
+                            passionate computer science major and tech entrepreneur. I thrive on creating innovative
+                            solutions like <a href="https://boostmark.io">BoostMark.io</a> to supercharge web browsing.
+                            Join me on my
+                            journey
+                            to make the digital world smarter and more efficient, one project at a time. Let's explore
+                            the
+                            future of tech together!</p>
+                        <button class="btn btn-outline-primary d-inline-flex flex-row align-items-center"
+                            style="letter-spacing: 0.2em;">
+                            <a href="Armaan_Jain_Resumé.pdf">
+                                Resumé
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="py-7 py-md-0"
+            style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #031521 7%, #031521e9 100%); "
+            id="about">
+            <div class="container">
+                <div class="row vh-md-0">
+                    <div class="col-md-7 col-sm-10 col-12 mx-50 mt-7 mb-1">
+                        <div class=".section-heading"
+                            style="color: #00e5ff; font-size: 1.2em; line-height: 1; word-spacing: 0.4em; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            01.
+                            <div
+                                style="font-size: 1.3em; color: #c7e9ea; font-weight: 800; display: inline; word-spacing: 0.08em;">
+                                Things To Know About Me
+                                <hr class="section-hr" style="margin-left: 0%; margin-right: 0%;">
+                            </div>
+                        </div>
+                        <p class="lead py-1" style="font-weight: 300; font-size: 1em;">
+                        <div style="line-height: 1.5em; margin-bottom: 20px; color: rgb(134, 160, 163);">Hello,
+                            I'm Armaan, and I'm delighted to have you here on my portfolio website. I'm a software
+                            developer with a passion for creating exceptional digital experiences.
+                        </div>
+                        <div style="line-height: 1.5em; margin-bottom: 20px; color: rgb(134, 160, 163);">My journey in
+                            the
+                            world of tech started with languages like <div style="color: #00e5ff; display: inline;">Java
+                            </div> and <div style="color: #00e5ff; display: inline;">C</div>, honing my skills in the
+                            fundamentals
+                            of programming. Over time, I expanded my knowledge by delving into technologies like
+                            <div style="color: #00e5ff; display: inline;">Dart</div>,
+                            <div style="color: #00e5ff; display: inline;">Flutter</div>, <div
+                                style="color: #00e5ff; display: inline;">Unity</div>, <div
+                                style="color: #00e5ff; display: inline;">HTML</div>, <div
+                                style="color: #00e5ff; display: inline;">CSS</div>, <div
+                                style="color: #00e5ff; display: inline;">Bootstrap</div>, and <div
+                                style="color: #00e5ff; display: inline;">JavaScript</div>, building a versatile skill
+                            set
+                            that
+                            allows me to craft both functional and visually appealing websites and web applications.
+                        </div>
+                        <div style="line-height: 1.5em; margin-bottom: 20px; color: rgb(134, 160, 163);">
+                            I have a strong background in web and app development, having worked on various projects
+                            that harness the power of various new <div style="color: #00e5ff; display: inline;">Advanced
+                                AI</div>. I'm dedicated to delivering
+                            clean, efficient code and user-friendly interfaces.
+                        </div>
+                        <div style="line-height: 1.5em; margin-bottom: 20px; color: rgb(134, 160, 163);">
+                            I have also worked frequently with back-end technologies like <div
+                                style="color: #00e5ff; display: inline;">Firebase</div> and <div
+                                style="color: #00e5ff; display: inline;">MongoDB</div>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="py-7 py-md-0"
+            style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #031521 7%, #031521e9 100%); "
+            id="projects">
+            <div class="container pl-md-7">
+                <div class="row vh-md-0">
+                    <div class="col-md-10 col-sm-10 col-12 mt-7 mb-1">
+                        <div class=".section-heading"
+                            style="color: #00e5ff; font-size: 1.2em; line-height: 1; word-spacing: 0.4em; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            02.
+                            <div
+                                style="font-size: 1.3em; color: #c7e9ea; font-weight: 800; display: inline; word-spacing: 0.08em;">
+                                Some Things I've Built
+                                <hr class="section-hr" style="margin-left: 0%; margin-right: 0%; padding-bottom: 30px;">
+                            </div>
+                        </div>
+
+                        <div class="card-featured-right">
+                            <div class="card-img-overlay" style="background-image: url(images/boostmark_banner.png);">
+                            </div>
+                            <div
+                                style="text-align: right; font-size: 0.8em; color: #c7e9ea; font-weight: 300; word-spacing: 0.08em; letter-spacing: 0.1em; color: #00e5ff; padding-top: 20px;">
+                                Featured Project
+                            </div>
+                            <div
+                                style="text-align: right; font-size: 1.3em; color: #c7e9ea; font-weight: 600; word-spacing: 0.08em;">
+                                BoostMark.io
+                            </div>
+                            <div class="card-content-right"
+                                style="background-color: #052337; text-align: right; padding-top: 30px;">
+                                <p style="color: #c9d5d5; font-size: 0.9em;">BoostMark.io is a next-generation web
+                                    browsing tool that streamlines bookmark management and enhances online productivity
+                                    with AI-driven recommendations.
+                                </p>
+                            </div>
+                            <p
+                                style=" text-align: right; font-weight: 200; color: #c9d5d5; font-size: 0.7em; letter-spacing: 0.1em; padding-top: 160px;">
+                                Bootstrap &nbsp; Flutter &nbsp; Firebase &nbsp; Reactjs
+                            </p>
+                            <div class="icon-right-featured">
+                                <a href="https://boostmark.io">
+                                    <img src="images/link_icon.png" alt="Link Icon" class="icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-featured-left mt-6">
+                            <div class="card-img-overlay"
+                                style="background-image: url(images/focuzed_banner.png); margin-left: 300px;">
+                            </div>
+                            <div
+                                style="text-align: left; font-size: 0.8em; color: #c7e9ea; font-weight: 300; word-spacing: 0.08em; letter-spacing: 0.1em; color: #00e5ff; padding-top: 20px;">
+                                Featured Project
+                            </div>
+                            <div
+                                style="text-align: left; font-size: 1.3em; color: #c7e9ea; font-weight: 600; word-spacing: 0.08em;">
+                                Focuzed - Notes & To-Do
+                            </div>
+                            <div class="card-content-left"
+                                style="background-color: #052337; text-align: left; padding-top: 20px;">
+                                <p style="color: #c9d5d5; font-size: 0.9em;">Focuzed is a task management app designed
+                                    to streamline your daily productivity. With intuitive features and a user-friendly
+                                    interface, it helps you efficiently organize and complete your tasks.
+                                </p>
+                            </div>
+                            <p
+                                style=" text-align: left; font-weight: 200; color: #c9d5d5; font-size: 0.7em; letter-spacing: 0.1em; padding-top: 160px;">
+                                Flutter &nbsp; Firebase &nbsp; Custom Components &nbsp;
+                            </p>
+                            <div class="icon-left-featured">
+                                <a href="https://play.google.com/store/apps/details?id=com.maxcode.focuzed_app">
+                                    <img src="images/link_icon.png" alt="Link Icon" class="icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extras -->
+        <section class="py-7 py-md-0" id="extras">
+            <div class="container"> <!-- style="padding-left: 10%;" -->
+                <div class="row vh-md-100">
+                    <div class="col-md-12 mt-7 mb-1">
+                        <div class=".section-heading"
+                            style="color: #00e5ff; font-size: 1.2em; line-height: 1; word-spacing: 0.4em; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                            03.
+                            <div
+                                style="font-size: 1.3em; color: #c7e9ea; font-weight: 800; display: inline; word-spacing: 0.08em;">
+                                Other Noteworthy Projects
+                                <hr class="section-hr" style="margin-left: 0%; margin-right: 0%; padding-bottom: 30px;">
+                            </div>
+                        </div>
+
+                        <div class="card-container" style="padding-bottom: 50px;">
+                            <div class="card pt-4 px-4" style="background-color: #052337;">
+                                <div class="pt-2 pb-4"
+                                    style="display: flex; align-items: center; justify-content: space-between;">
+                                    <img src="images/folder_icon.png" alt="Folder Icon" class="icon-folder">
+                                    <div class="icon-right">
+                                        <a href="https://github.com/Developing-Gamer/QuizzieAI">
+                                            <img src="images/code_icon.png" alt="Code Icon" class="icon">
+                                        </a>
+                                    </div>
+                                </div>
+                                <h6>QuizzieAi - Article / Video to Quiz</h6>
+                                <p style=" font-size: 0.9em;">QuizzieAI is a dynamic platform that transforms articles
+                                    and videos into interactive quizzes, fostering engaging and efficient learning
+                                    experiences.
+                                </p>
+                                <p
+                                    style="font-weight: 200; color: rgb(134, 160, 163); font-size: 0.8em; letter-spacing: 0.1em;">
+                                    Twilio &nbsp; Flutter &nbsp; ChatGPT API
+                                </p>
+                            </div>
+
+                            <div class="card pt-4 px-4" style="background-color: #052337;">
+                                <div class="pt-2 pb-4"
+                                    style="display: flex; align-items: center; justify-content: space-between;">
+                                    <img src="images/folder_icon.png" alt="Folder Icon" class="icon-folder">
+                                    <div class="icon-right">
+                                        <a href="https://github.com/Developing-Gamer/Bolt_Chat">
+                                            <img src="images/code_icon.png" alt="Code Icon" class="icon">
+                                        </a>
+                                    </div>
+                                </div>
+                                <h6>Bolt Chat - Private One-to-One Chats</h6>
+                                <p style=" font-size: 0.9em;">Bolt Chat is a secure messaging platform offering seamless
+                                    login options and username-based initiation of private chats, prioritizing user
+                                    privacy and data security.
+                                </p>
+                                <p
+                                    style="font-weight: 200; color: rgb(134, 160, 163); font-size: 0.8em; letter-spacing: 0.1em;">
+                                    Flutter &nbsp; Firebase &nbsp; Google Auth
+                                </p>
+                            </div>
+
+                            <div class="card pt-4 px-4" style="background-color: #052337;">
+                                <div class="pt-2 pb-4"
+                                    style="display: flex; align-items: center; justify-content: space-between;">
+                                    <img src="images/folder_icon.png" alt="Folder Icon" class="icon-folder">
+                                    <div class="icon-right">
+                                        <a href="https://github.com/Developing-Gamer/Chrome-Dino-Run/tree/main/Assets">
+                                            <img src="images/code_icon.png" alt="Code Icon" class="icon"
+                                                style="margin-right: 10px;">
+                                        </a>
+                                        <a href="https://play.unity.com/mg/other/2d-chrome-dino-run">
+                                            <img src="images/link_icon.png" alt="Link Icon" class="icon">
+                                        </a>
+                                    </div>
+                                </div>
+                                <h6>Chrome's Dino Run Clone</h6>
+                                <p style=" font-size: 0.9em;">Chrome Dino Run is a faithful recreation of Google
+                                    Chrome's beloved game, powered by Unity and C#. Experience the classic endless
+                                    runner with the same thrilling challenges.
+                                </p>
+                                <p
+                                    style="font-weight: 200; color: rgb(134, 160, 163); font-size: 0.8em; letter-spacing: 0.1em;">
+                                    Unity &nbsp; C#
+                                </p>
+                            </div>
+
+                            <div class="card pt-4 px-4" style="background-color: #052337;">
+                                <div class="pt-2 pb-4"
+                                    style="display: flex; align-items: center; justify-content: space-between;">
+                                    <img src="images/folder_icon.png" alt="Folder Icon" class="icon-folder">
+                                    <div class="icon-right">
+                                        <a href="">
+                                            <img src="images/code_icon.png" alt="Code Icon" class="icon"
+                                                style="margin-right: 10px;">
+                                        </a>
+                                        <a href="">
+                                            <img src="images/link_icon.png" alt="Link Icon" class="icon">
+                                        </a>
+                                    </div>
+                                </div>
+                                <h6>Clima - Weather & Alerts</h6>
+                                <p style=" font-size: 0.9em;">
+                                    Clima is your go-to weather companion with accurate weather
+                                    forcasts. Receive morning alerts to stay ahead of rain
+                                    or snow, and get real-time weather updates for any location.
+                                </p>
+                                <p
+                                    style="font-weight: 200; color: rgb(134, 160, 163); font-size: 0.8em; letter-spacing: 0.1em;">
+                                    Flutter &nbsp; Firebase &nbsp; OpenWeatherMap API
+                                </p>
+                            </div>
+
+                            <div class="card pt-4 px-4" style="background-color: #052337;">
+                                <div class="pt-2 pb-4"
+                                    style="display: flex; align-items: center; justify-content: space-between;">
+                                    <img src="images/folder_icon.png" alt="Folder Icon" class="icon-folder">
+                                    <div class="icon-right">
+                                        <a href="https://github.com/Developing-Gamer/Developing-Gamer.github.io">
+                                            <img src="images/code_icon.png" alt="Code Icon" class="icon"
+                                                style="margin-right: 10px;">
+                                        </a>
+                                        <a href="https://developing-gamer.github.io/#/">
+                                            <img src="images/link_icon.png" alt="Link Icon" class="icon">
+                                        </a>
+                                    </div>
+                                </div>
+                                <h6>Portfolio Website V1</h6>
+                                <p style=" font-size: 0.9em;">Portfolio Website V1 is a web
+                                    application with responsive design, offering a seamless platform to elegantly
+                                    present your projects and
+                                    skills.
+                                </p>
+                                <p
+                                    style="font-weight: 200; color: rgb(134, 160, 163); font-size: 0.8em; letter-spacing: 0.1em;">
+                                    Flutter &nbsp; Dart
+                                </p>
+                            </div>
+
+                            <div class="card pt-4 px-4" style="background-color: #052337;">
+                                <div class="pt-2 pb-4"
+                                    style="display: flex; align-items: center; justify-content: space-between;">
+                                    <img src="images/folder_icon.png" alt="Folder Icon" class="icon-folder">
+                                    <a class="icon-right"
+                                        href="https://github.com/Developing-Gamer/Java-OnlineTest-Project">
+                                        <img src="images/code_icon.png" alt="Code Icon" class="icon">
+                                    </a>
+                                </div>
+                                <h6>Java OnlineTest Project</h6>
+                                <p style=" font-size: 0.9em;">A thorough evaluation of Java and Data Structures
+                                    expertise, featuring True/False, Fill in the Blanks, and Multiple Choice questions
+                                    for a comprehensive assessment.
+                                </p>
+                                <p
+                                    style="font-weight: 200; color: rgb(134, 160, 163); font-size: 0.8em; letter-spacing: 0.1em;">
+                                    Java &nbsp; Eclipse &nbsp; Data Structures
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+
+    </div>
 
     <!-- Js Script Imports -->
     <script src="https://kit.fontawesome.com/08904992d4.js" crossorigin="anonymous"></script>
