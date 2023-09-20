@@ -98,8 +98,6 @@ section {
 }
 
 .social-link {
-  display: block;
-  text-align: center;
   color: rgb(134, 160, 163);
   border: none;
   text-decoration: none;
@@ -108,7 +106,17 @@ section {
 
 .social-link:hover {
   color: #00e5ff;
-  /* Change to the highlight color on hover */
+}
+
+.title-link {
+  color: #c7e9ea;
+  border: none;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.title-link:hover {
+  color: #00e5ff;
 }
 
 .icon-action {
@@ -239,7 +247,13 @@ section {
   padding: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  /* Add other styling for cards as needed */
+  transition: box-shadow 0.5s;
+}
+
+.card:hover {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 10px #0072ff;
 }
 
 .card-featured-right {
@@ -265,19 +279,11 @@ section {
   background-position: center;
   display: flex;
   position: relative;
+  transition: box-shadow 0.4s;
 }
 
-.card-img-overlay:before {
-  content: "";
-  background: #01a1bd;
-  background-size: cover;
-  width: 100%;
-  opacity: .5;
-  transition: .5s ease;
-}
-
-.card-img-overlay:hover:before {
-  background: #58ffd200;
+.card-img-overlay:hover {
+  box-shadow: 0 0 30px #0072ff;
 }
 
 
@@ -320,8 +326,11 @@ p {
   width: 25px;
 }
 
-
-
+@media (max-width: 1263px) {
+  body {
+    display: none;
+  }
+}
 
 
 body {
