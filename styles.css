@@ -327,7 +327,17 @@ p {
 }
 
 @media (max-width: 1263px) {
-  body {
+  .main-container {
+    display: none;
+  }
+}
+
+non-responsive-container {
+  display: block;
+}
+
+@media (min-width: 1263px) {
+  .non-responsive-container {
     display: none;
   }
 }
