@@ -125,7 +125,7 @@ section {
 
 .wrapper span {
   position: absolute;
-  bottom: -180px;
+  bottom: -150px;
   height: 50px;
   width: 50px;
   z-index: -1;
